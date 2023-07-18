@@ -25,5 +25,5 @@ public interface PersonaDao {
     void updatePersona(Persona p);
 
     @Query("DELETE FROM persona")
-    void deletePersona();
+    void deleteAllPersona();
 }
